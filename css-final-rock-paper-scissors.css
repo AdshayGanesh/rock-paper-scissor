@@ -1,0 +1,71 @@
+body{
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial;
+}
+.heading{
+  font-weight: 700;
+  font-size: 30px;
+}
+.rock-button{
+  height: 120px;
+  width: 120px;
+  border-radius: 80px;
+  background-color: transparent;
+  border: solid;
+  border-color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.rock-image{
+  cursor: pointer;
+  height: 50px;
+}
+.paper-button{
+  height: 120px;
+  width: 120px;
+  border-radius: 80px;
+  background-color: transparent;
+  border: solid;
+  border-color: white;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.paper-image{
+  cursor: pointer;
+  height: 50px;
+}
+.scissors-button{
+  height: 120px;
+  width: 120px;
+  border-radius: 80px;
+  background-color: transparent;
+  border: solid;
+  border-color: white;
+  cursor: pointer;
+}
+.scissors-image{
+  cursor: pointer;
+  height: 50px;
+}
+
+.js-result{
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.js-moves-result{
+  height: 50px;
+}
+.js-score{
+  margin-top: 60px;
+}
+
+.reset-button{
+  cursor: pointer;
+  font-size: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
